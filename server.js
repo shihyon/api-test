@@ -21,7 +21,6 @@ app.get('/hello', function(request, response) {
 
 app.get('/hello/:nameArg', function(request, response) {
     var nameArg = request.params.nameArg;
-    //var newname = request.body.name;
     var objectFound = false;
     for (var x = 0; x < people.length; x++) {
         var searchName = people[x];
