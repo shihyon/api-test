@@ -41,7 +41,7 @@ app.get('/hello/:nameArg', function(request, response) {
 app.post('/hello', function(request, response) {
     var newuser = request.body;
       if (!newuser || newuser.name === "") {
-          response.status(500).send({error:  "Hello stranger!"})
+          response.status(500).send({error:  "Please add name!"})
       } else {
           people.push(newuser);
           response.status(200).send(people);
