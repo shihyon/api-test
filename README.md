@@ -21,7 +21,7 @@ $ cd hello-api
 $ node server.js
 ```
 ## Test
-Initially shihyon is storad. 
+Initially shihyon string data  is storad. 
 To see all the names, on the browser http://localhost:3000
 Returns [{"name":"shihyon"}]
 
